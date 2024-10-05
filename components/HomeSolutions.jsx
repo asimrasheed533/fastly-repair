@@ -44,7 +44,7 @@ export function HomeSolutions() {
           target="_blank"
           className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary"
         >
-          Call Now
+          اتصل الآن
         </a>
       </div>
     </div>

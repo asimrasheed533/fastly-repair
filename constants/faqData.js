@@ -1,22 +1,22 @@
 export const faqData = [
   {
-    heading: "What types of appliances do you repair?",
-    info: "We specialize in repairing ACs, automatic machines, refrigerators, and a wide range of home and industrial appliances",
+    heading: "ما هي أنواع الأجهزة التي تقومون بإصلاحها؟",
+    info: "نحن متخصصون في إصلاح مكيفات الهواء، والغسالات الأوتوماتيكية، والثلاجات، ومجموعة واسعة من الأجهزة المنزلية والصناعية.",
   },
   {
-    heading: "How do I schedule a repair service?",
-    info: "You can easily schedule a repair by filling out our online booking form or calling us at 0558617259. We’ll arrange an appointment that fits your schedule.",
+    heading: "كيف يمكنني تحديد موعد لخدمة الإصلاح؟",
+    info: "يمكنك بسهولة تحديد موعد للإصلاح عن طريق ملء نموذج الحجز عبر الإنترنت أو الاتصال بنا على الرقم 0558617259. سنقوم بتحديد موعد يناسب جدولك.",
   },
   {
-    heading: "Do you provide same-day service?",
-    info: " Yes, we offer same-day service for most repairs, subject to technician availability and the nature of the problem.",
+    heading: "هل تقدمون خدمة في نفس اليوم؟",
+    info: "نعم، نقدم خدمة في نفس اليوم لمعظم الإصلاحات، وذلك حسب توفر الفني وطبيعة المشكلة.",
   },
   {
-    heading: "Is there a warranty on the repair service?",
-    info: "Yes, all our repairs come with a service guarantee. We ensure that our work meets the highest standards and offer a warranty for your peace of mind.",
+    heading: "هل هناك ضمان على خدمة الإصلاح؟",
+    info: "نعم، جميع إصلاحاتنا تأتي بضمان للخدمة. نضمن أن يكون عملنا على أعلى مستوى ونقدم ضمانًا لراحة بالك.",
   },
   {
-    heading: "Do you offer emergency repair services?",
-    info: "Yes, we provide emergency repair services for urgent issues with ACs, refrigerators, and other critical appliances.",
+    heading: "هل تقدمون خدمات إصلاح طارئة؟",
+    info: "نعم، نقدم خدمات الإصلاح الطارئة للمشكلات العاجلة المتعلقة بمكيفات الهواء، والثلاجات، وغيرها من الأجهزة الهامة.",
   },
 ];

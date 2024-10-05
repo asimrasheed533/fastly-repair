@@ -131,11 +131,10 @@ export function HomeCareSection() {
   return (
     <div className="home__care">
       <div className="home__care__header">
-        <div className="home__care__header__heading">
-          Discover the Benefits of choosing us
-        </div>
+        <div className="home__care__header__heading">اكتشف فوائد اختيارنا</div>
         <div className="home__care__header__info">
-          Experience World-Class Academic Assistance Along With Awesome Perks
+          إن الحصول على خدمات الصيانة المنزلية الطارئة في المدينة المنورة أمر
+          ضروري
         </div>
       </div>
       <div className="home__care__content">

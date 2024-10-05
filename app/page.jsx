@@ -12,8 +12,8 @@ export default function page() {
             <span>صيانة مكيفات، غساله اتوماتيك ،و تلاجه</span>
           </div>
           <div className="home__join__team__overlay__info">
-            Reliable, Fast, and Affordable Repairs for ACs, Machines, and
-            Refrigerators in Madia – Professional Service at Your Doorstep!
+            إصلاحات موثوقة وسريعة وبأسعار معقولة لمكيفات الهواء والآلات
+            والثلاجات في ماديا - خدمة احترافية عند باب منزلك
           </div>
           <div
             style={{
@@ -28,7 +28,7 @@ export default function page() {
               target="_blank"
               className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary"
             >
-              Call Now
+              اتصل الآن
             </a>
           </div>
         </div>

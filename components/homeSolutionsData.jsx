@@ -20,8 +20,8 @@ export const homeSolutionsData = [
         <path d="M8 16h.01" />
       </svg>
     ),
-    label: "Easy Online Booking or Call",
-    info: "Book your repair service in Madia through our easy-to-use online form or simply give us a call.",
+    label: "كيف تعمل خدماتنا؟",
+    info: "احجز خدمة الإصلاح الخاصة بك في ماديا من خلال نموذجنا عبر الإنترنت سهل الاستخدام أو ببساطة اتصل بنا",
   },
   {
     id: 2,
@@ -67,8 +67,8 @@ export const homeSolutionsData = [
         />
       </svg>
     ),
-    label: "Quick & Guaranteed Repair",
-    info: "Once you approve, we promptly fix your appliance with quality parts and expert care.",
+    label: "إصلاح سريع ومضمون",
+    info: "بمجرد موافقتك، نقوم على الفور بإصلاح جهازك باستخدام أجزاء عالية الجودة وعناية الخبراء",
   },
   {
     id: 3,
@@ -90,7 +90,7 @@ export const homeSolutionsData = [
         />
       </svg>
     ),
-    label: "Expert",
-    info: "Our certified technicians will assess your appliance and identify the issue.",
+    label: "خبير",
+    info: "سيقوم الفنيون المعتمدون لدينا بتقييم جهازك وتحديد المشكلة.",
   },
 ];

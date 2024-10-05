@@ -3,7 +3,7 @@ export const BlogData = [
     id: 1,
     question: "Is 24/7 Service Included?",
     answer:
-      "Having access to emergency home maintenance in Dubai is essential. Some companies only offer support during regular business hours",
+      "Having access to emergency home maintenance in madina is essential. Some companies only offer support during regular business hours",
   },
   {
     id: 2,
@@ -22,11 +22,5 @@ export const BlogData = [
     question: "Can I use a smart AC system?",
     answer:
       "Yes, smart AC systems can help you monitor your home's energy usage, make adjustments to your AC settings, and even turn on or off your AC automatically based on your preferences. Some popular smart AC brands include TCL, LG, and Mitsubishi.",
-  },
-  {
-    id: 5,
-    question: "What are some common maintenance mistakes to avoid?",
-    answer:
-      "Some common maintenance mistakes to avoid include leaving the AC system unplugged or on while it's cooling, using the wrong filter, and not cleaning the AC system thoroughly. To avoid these mistakes, make sure to follow the manufacturer's instructions and contact your AC service center for assistance.",
   },
 ];

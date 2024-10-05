@@ -30,6 +30,7 @@ export default function page() {
         {blogCardData.map((blog) => (
           <BlogCard
             key={blog.id}
+            id={blog.id}
             image={blog.image}
             title={blog.title}
             subtitle={blog.subtitle}

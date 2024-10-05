@@ -94,6 +94,9 @@
   justify-content: center;
   flex-direction: column;
   padding: 1em 0;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 3em;
 }
 .blog__detail__text__container__heading {
   font-size: 1.2rem;

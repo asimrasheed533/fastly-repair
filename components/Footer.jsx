@@ -8,7 +8,7 @@ export default function Footer() {
         <div className="footer__content__top">
           <form className="footer__content__top__left">
             <div className="footer__content__top__left__heading">
-              Lets Connect
+              دعونا نتواصل
             </div>
             <FooterInput
               icon={
@@ -156,7 +156,7 @@ export default function Footer() {
                   </g>
                 </svg>
               }
-              label="asimrasheed442@gmail.com"
+              label="mehtashamjutt553@gmail.com"
             />
             <FooterSocialEntry
               icon={
