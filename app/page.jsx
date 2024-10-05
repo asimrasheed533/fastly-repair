@@ -9,7 +9,7 @@ export default function page() {
       <div className="banner__container">
         <div className="home__join__team__overlay">
           <div className="home__join__team__overlay__heading">
-            <span>Expert AC, Machine, and Refrigerator</span> Repair Services
+            <span>صيانة مكيفات، غساله اتوماتيك ،و تلاجه</span>
           </div>
           <div className="home__join__team__overlay__info">
             Reliable, Fast, and Affordable Repairs for ACs, Machines, and

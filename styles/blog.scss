@@ -78,3 +78,28 @@
   transition: 300ms ease-in-out;
   background-color: #ffd857;
 }
+.blog__detail__warper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  max-width: 900px;
+  margin: 0 auto;
+  margin-top: 3em;
+}
+.blog__detail__text__container {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  flex-direction: column;
+  padding: 1em 0;
+}
+.blog__detail__text__container__heading {
+  font-size: 1.2rem;
+  font-weight: 700;
+  padding-bottom: 0.6rem;
+}
+.blog__detail__text__container__subheading {
+  text-align: end;
+}

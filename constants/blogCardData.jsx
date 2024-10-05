@@ -16,5 +16,18 @@ export const blogCardData = [
       "Maintaining your AC system is crucial to keeping it running efficiently. Regular cleaning and timely maintenance can extend its life and lower energy bills. Learn more about how to take care of your AC system...",
     slug: "/blog/ac-maintenance-tips",
   },
-  // Add more blog data here
+  {
+    id: 3,
+    image: blog01,
+    title: "5 Ways to Optimize Your AC System for Energy Efficiency",
+    subtitle:
+      "Improving your AC system's energy efficiency can help save you money and reduce your carbon footprint. Here are five simple tips to help you achieve that goal...",
+  },
+  {
+    id: 4,
+    image: blog01,
+    title: "How to Troubleshoot AC Issues and Find the Root Cause",
+    subtitle:
+      "Air conditioning is a critical component in maintaining your home's comfort. If you're having trouble with your AC, it's essential to understand the root cause and find a solution that works for you.",
+  },
 ];

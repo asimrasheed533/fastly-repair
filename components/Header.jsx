@@ -23,6 +23,7 @@ export default function Header() {
 
     window.addEventListener("resize", checkNavOpen);
   }, []);
+
   return (
     <>
       <ClickAwayListener
@@ -46,7 +47,7 @@ export default function Header() {
               <Link
                 href="/about"
                 className={`nav__entry__item ${
-                  pathname === "/order" ? "active" : ""
+                  pathname === "/about" ? "active" : ""
                 }`}
               >
                 About Us
@@ -55,7 +56,7 @@ export default function Header() {
               <Link
                 href="/blog"
                 className={`nav__entry__item ${
-                  pathname === "/About" ? "active" : ""
+                  pathname === "/blog" ? "active" : ""
                 }`}
               >
                 Blog
