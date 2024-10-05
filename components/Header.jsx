@@ -42,7 +42,7 @@ export default function Header() {
                   pathname === "/" ? "active" : ""
                 }`}
               >
-                Home
+                بيت
               </Link>
               <Link
                 href="/about"
@@ -50,7 +50,7 @@ export default function Header() {
                   pathname === "/about" ? "active" : ""
                 }`}
               >
-                About Us
+                معلومات عنا
               </Link>
 
               <Link
@@ -59,7 +59,7 @@ export default function Header() {
                   pathname === "/blog" ? "active" : ""
                 }`}
               >
-                Blog
+                مدونة
               </Link>
               {/* <a
                 href="#contactUs"

@@ -9,21 +9,20 @@ import BlogCard from "@/components/BlogCard";
 export default function page() {
   return (
     <>
-      <SecondHeader image={blog} text="Blog" />
+      <SecondHeader image={blog} text="مدونة" />
       <div className="blog__text__contain">
         <div className="blog__text__heading">
-          YOUR ONE-STOP PORTAL FOR HOME MAINTENANCE CONTENT
+          بوابة شاملة لمحتوى صيانة المنزل
         </div>
         <div className="blog__text__subheading">
-          Want to learn common maintenance mistakes before you make them? Or
-          need some inspiration for your upcoming DIY? The We Will Fix It blog
-          delves into home maintenance topics with knowledge shared directly by
-          our on-the-ground experts – making this your number one spot for
-          discovering real tips and tricks to help you on your way. Meanwhile
-          our regular podcast from Colin and James turns subjects like AC
-          servicing and figuring out your drill into what feels like a
-          light-hearted chat with friends. Read or listen on to make light work
-          of your serious home maintenance research!
+          هل تريد أن تتعلم أخطاء الصيانة الشائعة قبل أن ترتكبها؟ أو هل تحتاج إلى
+          بعض الإلهام لمشروعك القادم؟ تتعمق مدونة We Will Fix It في موضوعات
+          صيانة المنزل من خلال المعرفة التي يشاركها خبراؤنا على أرض الواقع
+          مباشرةً - مما يجعلها مكانك الأول لاكتشاف النصائح والحيل الحقيقية
+          لمساعدتك على طريقك. وفي الوقت نفسه، يحول البودكاست المنتظم من كولين
+          وجيمس موضوعات مثل صيانة مكيف الهواء ومعرفة كيفية استخدام المثقاب إلى
+          ما يشبه الدردشة المرحة مع الأصدقاء. اقرأ أو استمع لتجعل بحثك الجاد عن
+          صيانة المنزل أسهل!
         </div>
       </div>
       <div className="blog__container">
