@@ -186,17 +186,17 @@ export default function Footer() {
         </div> */}
         <div className="footer__content__bottom__links">
           <a href="#" className="footer__content__bottom__links__link">
-            Safety
+            أمان
           </a>
           <a href="#" className="footer__content__bottom__links__link">
-            Help
+            يساعد
           </a>
           <a href="/about" className="footer__content__bottom__links__link">
-            About Us
+            عن
           </a>
         </div>
         <div className="footer__content__bottom__text">
-          Copyright 2024 All rights are reserved
+          جميع الحقوق محفوظة 2024
         </div>
       </div>
     </div>

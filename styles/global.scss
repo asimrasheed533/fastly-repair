@@ -22,6 +22,16 @@ body {
   font-size: 15px;
   background-color: var(--white);
 }
+.contact__phone__container {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  flex-direction: column;
+  padding: 2em;
+  gap: 1em;
+  position: relative;
+}
 .ripple {
   position: absolute;
   border-radius: 50%;
@@ -32,8 +42,10 @@ body {
   height: 100%;
   pointer-events: none; /* Ensure the ripple does not block clicks */
 }
-
-.whatsapp-cta:hover .ripple {
+.whatsapp__icon {
+  position: absolute;
+}
+.whatsapp__icon:hover .ripple {
   animation: ripple-animation 1s linear forwards; /* Animate on hover */
 }
 @keyframes ripple-animation {
@@ -41,6 +53,13 @@ body {
     transform: scale(1.9);
     opacity: 0; /* Fade out */
   }
+}
+.whatsapp__icon__phone {
+  position: absolute;
+  background-color: rgb(0, 0, 0);
+  margin-bottom: 5em;
+  padding: 1em;
+  border-radius: 40px;
 }
 .Second__header__container {
   display: flex;

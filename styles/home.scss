@@ -351,7 +351,7 @@
 }
 .benefits__features__entry {
   flex: 1 1 400px;
-  padding: 2em;
+  padding: 0 0 2em 0;
   margin-bottom: 1em;
   border-radius: 20px;
   background-color: #ecececc2;
@@ -364,12 +364,13 @@
 .benefits__features__entry__icon {
   color: #3cb149;
   background-color: #fff7dc;
-  width: 50px;
-  height: 50px;
+  width: 100%;
+  height: 150px;
   display: flex;
   align-items: center;
   justify-content: center;
-  border-radius: 50px;
+  object-fit: cover;
+  border-radius: 10px;
 }
 .benefits__features__entry__icon svg {
   width: 25px;
@@ -377,12 +378,13 @@
 }
 .benefits__features__entry__heading {
   font-size: 20px;
-  margin: 0.7em 0em;
+  margin: 0.7em;
   font-weight: bold;
 }
 .benefits__features__entry__info {
   width: 100%;
   text-align: end;
+  padding: 0 1em;
 }
 .benefits__features__entry:hover {
   transition: 300ms ease-in-out;
