@@ -5,6 +5,8 @@ import Accordion from "@/components/Accordion";
 import SecondHeader from "@/components/SecondHeader";
 import ValueCard from "@/components/ValueCard";
 import aboutAc from "@/public/aboutAc.png";
+import about01 from "@/public/about01.jpg";
+import about02 from "@/public/about02.png";
 
 import "@/styles/about.scss";
 import Image from "next/image";
@@ -19,13 +21,13 @@ export default function About() {
     <>
       <SecondHeader image={aboutAc} text="About Us" />
       <AboutCard
-        image={aboutAc}
+        image={about01}
         heading="Expert Appliance Repair Solutions"
         content1="We are your go-to experts for reliable and efficient appliance repair services. Whether its a malfunctioning air conditioner, an automatic machine, or a refrigerator thats not cooling, our skilled technicians are here to help. We pride ourselves on offering expert repair services for air conditioners, automatic machines, and refrigerators."
         content2="Our commitment to customer satisfaction means that we prioritize your needs and ensure transparency throughout the repair process. We use high-quality parts and the latest techniques to provide lasting solutions at competitive prices."
       />
       <AboutCard
-        image={aboutAc}
+        image={about02}
         heading="Reliable Appliance Repair Services"
         content1=" we specialize in expert repair services for air conditioners, automatic machines, and refrigerators. Our certified technicians are equipped with the knowledge and skills to diagnose and fix a wide range of appliance issues efficiently. We understand the importance of these essential appliances in your daily life, which is why we prioritize quick response times and reliable service."
         content2="Whether your facing a cooling issue with your AC, malfunctioning features on your automatic machine, or a refrigerator that not maintaining the right temperature, our team is here to help. We pride ourselves on our commitment to quality workmanship and customer satisfaction, ensuring that every repair is done right the first time."
@@ -35,6 +37,7 @@ export default function About() {
         <div className="about__img__warper">
           <div className="about__img__warper_overlay">
             <Image
+              className="about__img__warper_overlay__img"
               src={aboutAc}
               alt="خدمات إصلاح المكيفات، إصلاح الثلاجات، إصلاح الآلات الأوتوماتيكية، خبراء إصلاح الأجهزة، إصلاح الأجهزة الطارئ، إصلاح الأجهزة المنزلية، فنيو إصلاح محترفون"
             />

@@ -19,7 +19,7 @@
   width: 100%;
   height: 100%;
   max-height: 400px;
-  object-fit: contain;
+  object-fit: cover;
   border-radius: 12px;
 }
 .about__card__content {
@@ -50,14 +50,17 @@
   width: 100%;
 }
 .about__img__warper_overlay {
-  background-color: rgba(255, 255, 255, 0.514);
+  background-color: rgba(240, 240, 240, 0.692);
+}
+.about__img__warper_overlay__img {
+  object-fit: contain;
 }
 .about__text__warper {
   width: 100%;
   height: 100%;
   display: flex;
   align-items: center;
-  background-color: rgba(39, 39, 39, 0.5);
+  background-color: rgba(31, 31, 31, 0.76);
   position: absolute;
   top: 50%;
   left: 50%;
@@ -71,7 +74,8 @@
   padding: 0 2em;
 }
 .about__text__warper__heading {
-  font-size: 30px;
+  font-size: 1.8rem;
+  padding-bottom: 0.6em;
   font-weight: 800;
 }
 .about__text__warper__title {
