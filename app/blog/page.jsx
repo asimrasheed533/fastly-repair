@@ -4,7 +4,7 @@ import blog from "@/public/blog.png";
 
 import "@/styles/blog.scss";
 import { blogCardData } from "@/constants/blogCardData";
-import BlogCard from "@/components/BLogCard";
+import BlogCard from "@/components/BlogCard";
 
 export default function page() {
   return (
