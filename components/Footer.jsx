@@ -1,5 +1,4 @@
 import React from "react";
-// import { appstore, googleplay, logo } from "../assets";
 import Link from "next/link";
 import "@/styles/footer.scss";
 export default function Footer() {
@@ -245,31 +244,9 @@ export default function Footer() {
             />
           </div>
         </div>
-        <div className="footer__content__bottom">
-          {/* <Link to="/" className="footer__content__bottom__logo">
-            <img
-              src={logo}
-              alt="logo"
-              className="footer__content__bottom__logo__img"
-            />
-          </Link> */}
-          {/* <div className="footer__content__bottom__buttons">
-            <a href="#" className="footer__content__bottom__buttons__link">
-              <img
-                src={appstore}
-                alt="appstore"
-                className="footer__content__bottom__buttons__link__img"
-              />
-            </a>
-            <a href="#" className="footer__content__bottom__buttons__link">
-              <img
-                src={googleplay}
-                alt="googleplay"
-                className="footer__content__bottom__buttons__link__img"
-              />
-            </a>
-          </div> */}
-        </div>
+        {/* <div className="footer__content__bottom">
+         
+        </div> */}
         <div className="footer__content__bottom__links">
           <a href="#" className="footer__content__bottom__links__link">
             Safety

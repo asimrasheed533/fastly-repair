@@ -21,14 +21,14 @@ export default function About() {
       <AboutCard
         image={aboutAc}
         heading="Expert Appliance Repair Solutions"
-        content1="We are your go-to experts for reliable and efficient appliance repair services. Whether it's a malfunctioning air conditioner, an automatic machine, or a refrigerator that's not cooling, our skilled technicians are here to help. We pride ourselves on offering expert repair services for air conditioners, automatic machines, and refrigerators."
+        content1="We are your go-to experts for reliable and efficient appliance repair services. Whether its a malfunctioning air conditioner, an automatic machine, or a refrigerator thats not cooling, our skilled technicians are here to help. We pride ourselves on offering expert repair services for air conditioners, automatic machines, and refrigerators."
         content2="Our commitment to customer satisfaction means that we prioritize your needs and ensure transparency throughout the repair process. We use high-quality parts and the latest techniques to provide lasting solutions at competitive prices."
       />
       <AboutCard
         image={aboutAc}
         heading="Reliable Appliance Repair Services"
         content1=" we specialize in expert repair services for air conditioners, automatic machines, and refrigerators. Our certified technicians are equipped with the knowledge and skills to diagnose and fix a wide range of appliance issues efficiently. We understand the importance of these essential appliances in your daily life, which is why we prioritize quick response times and reliable service."
-        content2="Whether you're facing a cooling issue with your AC, malfunctioning features on your automatic machine, or a refrigerator that's not maintaining the right temperature, our team is here to help. We pride ourselves on our commitment to quality workmanship and customer satisfaction, ensuring that every repair is done right the first time."
+        content2="Whether your facing a cooling issue with your AC, malfunctioning features on your automatic machine, or a refrigerator that not maintaining the right temperature, our team is here to help. We pride ourselves on our commitment to quality workmanship and customer satisfaction, ensuring that every repair is done right the first time."
         reverse
       />
       <div className="about__img__text__container">
@@ -47,11 +47,11 @@ export default function About() {
           <div className="about__text__warper__content">
             we believe in honest and upfront pricing. Before any work begins, we
             provide a detailed estimate with no hidden fees. This transparency
-            helps you make informed decisions about your appliance
-            repairs.Whether it's a minor malfunction or a major breakdown, we
-            provide comprehensive repair services for all types of AC units,
-            automatic machines, and refrigerators. From routine maintenance to
-            complex repairs, we handle it all with precision and care.
+            helps you make informed decisions about your appliance repairs.
+            Whether it a minor malfunction or a major breakdown, we provide
+            comprehensive repair services for all types of AC units, automatic
+            machines, and refrigerators. From routine maintenance to complex
+            repairs, we handle it all with precision and care.
           </div>
         </div>
       </div>
@@ -75,7 +75,7 @@ export default function About() {
                 </svg>
               }
               heading="Transparency, Trust, and Integrity"
-              content="We believe in building trust through transparent pricing, clear communication, and a commitment to integrity in every aspect of our work, so you can have peace of mind knowing you're in good hands."
+              content="We believe in building trust through transparent pricing, clear communication, and a commitment to integrity in every aspect of our work, so you can have peace of mind knowing your in good hands."
             />
             <ValueCard
               svg={
