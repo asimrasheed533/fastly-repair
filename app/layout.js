@@ -19,7 +19,7 @@ export default function RootLayout({ children }) {
         <Footer />
         <a
           className="whatsapp-cta"
-          href="https://api.whatsapp.com/send?phone=923296006849&text=I%20need%20help%20in%20assignment!%20Can%20you%20help%20me?"
+          href="https://api.whatsapp.com/send?phone=0558617259&text=I%20need%20help%20in%20assignment!%20Can%20you%20help%20me?"
           target="_blank"
           rel="noreferrer"
           style={{
