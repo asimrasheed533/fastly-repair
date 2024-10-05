@@ -60,7 +60,7 @@ export default function Header() {
               >
                 Blog
               </Link>
-              <a
+              {/* <a
                 href="#contactUs"
                 className={`nav__entry__item ${
                   pathname === "contactUs" ? "active" : ""
@@ -73,7 +73,7 @@ export default function Header() {
                 }}
               >
                 Contact
-              </a>
+              </a> */}
               <div className="menu__close__warper">
                 <div className="menu__close__title">Menu</div>
                 <div
