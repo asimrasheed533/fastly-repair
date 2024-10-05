@@ -1,3 +1,4 @@
+import { HomeCareSection } from "@/components/HomeCareSection";
 import { HomeFaqSection } from "@/components/HomeFaqSection";
 import { HomeSolutions } from "@/components/HomeSolutions";
 import "@/styles/home.scss";
@@ -14,8 +15,25 @@ export default function page() {
             Reliable, Fast, and Affordable Repairs for ACs, Machines, and
             Refrigerators in Madia – Professional Service at Your Doorstep!
           </div>
+          <div
+            style={{
+              width: "100%",
+              display: "flex",
+              justifyContent: "center",
+              marginTop: "1em",
+            }}
+          >
+            <a
+              href="tel:0558617259"
+              target="_blank"
+              className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary"
+            >
+              Call Now
+            </a>
+          </div>
         </div>
       </div>
+      <HomeCareSection />
       <HomeSolutions />
       <HomeFaqSection />
     </>

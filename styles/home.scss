@@ -254,6 +254,114 @@
   background-size: cover;
   position: relative;
 }
+.home__care {
+  width: 100%;
+  max-width: 1440px;
+  padding: 2em 2em;
+  margin: 0em auto;
+  margin-top: 1em;
+}
+.home__care__header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 3em;
+}
+.home__care__header__heading {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  margin-bottom: 0.5em;
+  position: relative;
+}
+.home__care__header__heading::after {
+  position: absolute;
+  bottom: 0px;
+  right: 0px;
+  content: "";
+  width: 33%;
+  height: 3px;
+  background-color: #3cb149;
+}
+.home__care__header__info {
+  font-size: 16px;
+}
+.home__care__header__info a {
+  color: #242424;
+}
+.home__care__header__info a:hover {
+  transition: 300ms ease-in-out;
+  color: #3cb149;
+}
+.home__care__content {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  margin: 0em -1em;
+  gap: 2em;
+  row-gap: 3em;
+}
+.home__care__content__entry {
+  display: flex;
+  flex: 0 1 28%;
+  gap: 0.5em;
+}
+.home__care__content__entry__icon svg {
+  height: 60px;
+  color: #3cb149;
+}
+.home__care__content__entry__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3em;
+}
+.home__care__content__entry__content__title {
+  font-weight: 600;
+  font-size: 18px;
+}
+.home__care__content__entry__content__info {
+  font-size: 14px;
+  color: #8a8a8a;
+}
+.benefits__features__entry {
+  flex: 1 1 400px;
+  padding: 2em;
+  margin-bottom: 1em;
+  border-radius: 20px;
+  background-color: #ecececc2;
+}
+.benefits__features__entry__icon {
+  color: #3cb149;
+  background-color: #fff7dc;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50px;
+}
+.benefits__features__entry__icon svg {
+  width: 25px;
+  height: 25px;
+}
+.benefits__features__entry__heading {
+  font-size: 20px;
+  margin: 0.7em 0em;
+  font-weight: bold;
+}
+.benefits__features__entry__info {
+  width: 100%;
+}
+.benefits__features__entry:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+}
+.benefits__features__entry:hover .benefits__features__entry__heading {
+  color: white;
+}
+.benefits__features__entry:hover .benefits__features__entry__info {
+  color: white;
+}
 @media (max-width: 900px) {
   .home__faq__col:nth-child(2) {
     min-width: 100%;
