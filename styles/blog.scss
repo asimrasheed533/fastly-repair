@@ -106,3 +106,11 @@
 .blog__detail__text__container__subheading {
   text-align: end;
 }
+@media (max-width: 768px) {
+  .blog__text__heading {
+    font-size: 1.2rem;
+  }
+  .blog__text__subheading {
+    text-align: justify;
+  }
+}

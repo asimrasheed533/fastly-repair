@@ -92,6 +92,28 @@
   background-color: #3cb149;
   color: white;
 }
+.header__content__buttons__button__warper {
+  width: 100%;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+.header__content__buttons__button {
+  background-color: #ffd857;
+  padding: 1em 4em;
+  border-radius: 40px;
+  color: black;
+  border: none;
+  font-weight: 600;
+  text-decoration: none;
+  font-size: 1.1rem;
+  transition: 300ms ease-in-out;
+}
+.header__content__buttons__button:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+}
 .header__content__nav__buttons__button {
   all: unset;
   padding: 0.6em 1.8em;
@@ -219,17 +241,16 @@
   height: 100%;
 }
 .home__join__team__overlay {
-  position: absolute;
-  top: 0px;
-  left: 0px;
   width: 100%;
   height: 100%;
+  max-width: 1366px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-end;
   justify-content: center;
   padding: 2em;
-  background-color: #ffffffbb;
+  // background-color: #ffffffbb;
+  color: white;
 }
 
 .home__join__team__overlay__heading {
@@ -238,22 +259,25 @@
   text-align: center;
 }
 .home__join__team__overlay__heading span {
-  color: #3cb149;
+  color: #ffffff;
 }
 .home__join__team__overlay__info {
   width: 100%;
   max-width: 700px;
-  text-align: center;
-  font-size: 1.1rem;
+  text-align: end;
+  font-size: 1.3rem;
   padding: 0.7em 0;
 }
 .banner__container {
-  background-image: url(../public/topac.jpg);
+  background-image: url(../public/topac.png);
   background-repeat: no-repeat;
   width: 100%;
-  height: 500px;
+  height: 600px;
   background-size: cover;
   position: relative;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
 }
 .home__care {
   width: 100%;
@@ -389,6 +413,11 @@
   }
 }
 @media (max-width: 600px) {
+  .header__content__buttons__button__warper {
+    align-items: center;
+    margin-top: 1em;
+    justify-content: center;
+  }
   .home__join__team__overlay__heading {
     font-size: 2rem;
   }

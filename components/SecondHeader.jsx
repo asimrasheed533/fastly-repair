@@ -13,14 +13,14 @@ export default function SecondHeader({ image, text }) {
         <svg viewBox="0 0 51 10" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M0 0H40.9986C46.4736 0 50.912 4.43837 50.912 9.91338H9.91338C4.43837 9.91338 0 5.47501 0 0Z"
-            fill="#00263B"
+            fill="currentColor"
           />
         </svg>
         <span>{text}</span>
         <svg viewBox="0 0 51 10" fill="none" xmlns="http://www.w3.org/2000/svg">
           <path
             d="M0 0H40.9986C46.4736 0 50.912 4.43837 50.912 9.91338H9.91338C4.43837 9.91338 0 5.47501 0 0Z"
-            fill="#00263B"
+            fill="currentColor"
           />
         </svg>
       </div>

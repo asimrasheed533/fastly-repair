@@ -23,8 +23,8 @@ export function HomeFaqSection() {
         ))}
       </div>
       <div className="home__faq__col">
-        <div className="home__faq__col__heading">Faq</div>
-        <div className="home__faq__col__info">All you need to know!</div>
+        <div className="home__faq__col__heading">التعليمات</div>
+        <div className="home__faq__col__info">كل ما تريد معرفته</div>
       </div>
     </div>
   );

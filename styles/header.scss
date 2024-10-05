@@ -1,15 +1,21 @@
 .nav__bar__container {
   width: 100%;
+  max-width: 1366px;
   display: flex;
   align-items: center;
   justify-content: space-between;
-  max-width: 1366px;
   margin: 0 auto;
   padding: 2em;
   background-color: rgb(27, 27, 27);
   border-bottom-left-radius: 16px;
   border-bottom-right-radius: 16px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0; /* This pins the nav bar to the top of the page */
+  z-index: 9999;
 }
+
 .nav__log {
   background-color: transparent;
   border: none;

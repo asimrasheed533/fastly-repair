@@ -8,7 +8,7 @@ import AOS from "aos";
 export function HomeSolutions() {
   return (
     <div className="home__solutions">
-      <div className="home__solutions__heading">How Our Services Work?</div>
+      <div className="home__solutions__heading">كيف تعمل خدماتنا؟</div>
       <div className="home__solutions__content">
         {homeSolutionsData.map((solution) => {
           console.log("solution", solution.id);
@@ -36,6 +36,7 @@ export function HomeSolutions() {
           width: "100%",
           display: "flex",
           justifyContent: "center",
+
           marginTop: "1em",
         }}
       >

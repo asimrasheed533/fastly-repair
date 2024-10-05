@@ -15,18 +15,11 @@ export default function page() {
             إصلاحات موثوقة وسريعة وبأسعار معقولة لمكيفات الهواء والآلات
             والثلاجات في ماديا - خدمة احترافية عند باب منزلك
           </div>
-          <div
-            style={{
-              width: "100%",
-              display: "flex",
-              justifyContent: "center",
-              marginTop: "1em",
-            }}
-          >
+          <div className="header__content__buttons__button__warper">
             <a
               href="tel:0558617259"
               target="_blank"
-              className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary"
+              className="header__content__buttons__button"
             >
               اتصل الآن
             </a>
