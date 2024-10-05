@@ -1,0 +1,299 @@
+.home__solutions {
+  width: 100%;
+  max-width: 1440px;
+  padding: 6em 1.5em;
+  margin: 0em auto;
+}
+.home__solutions__heading {
+  font-size: 2rem;
+  color: black;
+  font-weight: bold;
+  text-align: center;
+  margin-bottom: 1em;
+}
+.home__solutions__content {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: 0em -1em;
+}
+.home__solutions__content__entry {
+  width: 30%;
+  margin: 1%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-decoration: none;
+  cursor: pointer;
+  position: relative;
+  flex: 0 1 300px;
+  padding: 1em;
+}
+.home__solutions__content__entry:nth-child(2)::before {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 100px;
+  background-image: url("https://cdnx.myassignmenthelp.com/assets/homepage/arrow-how-it-work.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  left: -65px;
+  top: 4em;
+}
+.home__solutions__content__entry:nth-child(2)::after {
+  position: absolute;
+  content: "";
+  height: 50px;
+  width: 100px;
+  background-image: url("https://cdnx.myassignmenthelp.com/assets/homepage/arrow-how-it-work.svg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  right: -65px;
+  top: 4em;
+}
+.home__solutions__content__entry__icon {
+  background-color: white;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1);
+  width: 150px;
+  height: 150px;
+  border-radius: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #3cb149;
+  margin-bottom: 2em;
+}
+.home__solutions__content__entry__icon svg {
+  width: 80px;
+  height: 80px;
+}
+.home__solutions__content__entry__text {
+  color: black;
+  font-size: 16px;
+  font-weight: 700;
+}
+.home__solutions__content__entry__info {
+  font-size: 12px;
+  max-width: 100%;
+  color: black;
+  white-space: wrap;
+  text-align: center;
+  margin-top: 0.5em;
+}
+.home__solutions__content__entry:hover .home__solutions__content__entry__icon {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+}
+.home__solutions__content__entry__active
+  .home__solutions__content__entry__icon {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+}
+.header__content__nav__buttons__button {
+  all: unset;
+  padding: 0.6em 1.8em;
+  border-radius: 50px;
+  background-color: transparent;
+  border: 1px solid transparent;
+  margin-left: 1em;
+  cursor: pointer;
+}
+.header__content__nav__buttons__button__primary {
+  border-color: #242424;
+}
+.header__content__nav__buttons__button__primary:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+  border-color: #3cb149;
+}
+.header__content__nav__buttons__button__secondary {
+  background-color: #3cb149;
+  color: white;
+  border-color: #3cb149;
+}
+.header__content__nav__buttons__button__secondary:hover {
+  transition: 300ms ease-in-out;
+  background-color: #ffd857;
+  color: black;
+  border-color: #ffd857;
+}
+.header__content__nav__buttons__button__menu {
+  background-color: #ffd857;
+  padding: 0.5em;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  color: balck;
+}
+.header__content__nav__buttons__button__menu:hover {
+  transition: 300ms ease-in-out;
+  background-color: #3cb149;
+  color: white;
+}
+.home__faq {
+  display: flex;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0em auto;
+  padding: 1.5em;
+  padding-top: 1em;
+}
+.home__faq__col {
+  flex: 1;
+  padding: 0 1em;
+}
+.home__faq__col:nth-child(2) {
+  min-width: 70%;
+}
+.home__faq__col__entry {
+  width: 100%;
+  margin-bottom: 1em;
+}
+.home__faq__col__entry__header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #efefef;
+  border: none;
+  padding: 1em 2em;
+  border-radius: 50px;
+  cursor: pointer;
+  gap: 2em;
+}
+.home__faq__col__entry__header__heading {
+  font-size: 14px;
+  font-weight: 500;
+  flex: 1;
+  text-align: left;
+}
+.home__faq__col__entry__header__icon {
+  width: 30px;
+  height: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  padding: 0em;
+  border-radius: 50px;
+}
+.home__faq__col__entry__header:hover {
+  background-color: #ffd857;
+}
+.home__faq__col__entry__content {
+  padding: 1.5em;
+}
+.home__faq__col__heading {
+  font-size: 30px;
+  color: black;
+  font-weight: bold;
+  position: relative;
+  width: fit-content;
+  margin-bottom: 0.5em;
+}
+.home__faq__col__info {
+  margin-bottom: 1em;
+}
+.home__faq__col__heading::after {
+  content: "";
+  position: absolute;
+  bottom: -3px;
+  left: 0em;
+  width: 100%;
+  height: 3px;
+  background-color: #ffd857;
+}
+.home__join__team {
+  width: 100%;
+  position: relative;
+  height: 500px;
+  margin: 4em 0em;
+}
+.home__join__team__img {
+  width: 100%;
+  height: 100%;
+}
+.home__join__team__overlay {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 2em;
+  background-color: #ffffffbb;
+}
+
+.home__join__team__overlay__heading {
+  font-size: 2.3rem;
+  font-weight: 800;
+  text-align: center;
+}
+.home__join__team__overlay__heading span {
+  color: #3cb149;
+}
+.home__join__team__overlay__info {
+  width: 100%;
+  max-width: 700px;
+  text-align: center;
+  font-size: 16px;
+  padding: 0.7em 0;
+}
+.banner__container {
+  background-image: url(../public/topac.jpg);
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 500px;
+  background-size: cover;
+  position: relative;
+}
+@media (max-width: 900px) {
+  .home__faq__col:nth-child(2) {
+    min-width: 100%;
+  }
+  .home__faq {
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-bottom: 1em;
+    font-size: 1rem;
+  }
+
+  .home__solutions__content__entry:nth-child(2)::before {
+    display: none;
+  }
+  .home__solutions__content__entry:nth-child(2)::after {
+    display: none;
+  }
+}
+@media (max-width: 600px) {
+  .home__join__team__overlay__heading {
+    font-size: 1.4rem;
+  }
+  .home__solutions__heading {
+    font-size: 1.2rem;
+  }
+  .home__join__team__overlay__info {
+    font-size: 0.8rem;
+  }
+  // .home__solutions__content__entry {
+  //   width: 48%;
+  // }
+  .home__solutions__content__entry__icon {
+    width: 80px;
+    height: 80px;
+  }
+  .home__solutions__content__entry__icon svg {
+    width: 30px;
+    height: 30px;
+  }
+  .home__solutions__content__entry {
+    width: 100%;
+  }
+}
