@@ -12,20 +12,14 @@ export function HomeFaqSection() {
       <div className="home__faq__col"></div>
       <div className="home__faq__col">
         {faqData.map((faq, i) => (
-          <motion.li
-            initial={{ opacity: 0, y: -250 }}
-            animate={{ opacity: 1, y: 10 }}
-            transition={{ duration: 0.8 }}
+          <HomeFaqSectionEntry
             key={JSON.stringify(faq)}
             index={i}
-          >
-            <HomeFaqSectionEntry
-              heading={faq.heading}
-              info={faq.info}
-              selected={selected}
-              setSelected={setSelected}
-            />
-          </motion.li>
+            heading={faq.heading}
+            info={faq.info}
+            selected={selected}
+            setSelected={setSelected}
+          />
         ))}
       </div>
       <div className="home__faq__col">
