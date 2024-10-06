@@ -2,7 +2,6 @@ import { HomeCareSection } from "@/components/HomeCareSection";
 import { HomeFaqSection } from "@/components/HomeFaqSection";
 import { HomeSolutions } from "@/components/HomeSolutions";
 import "@/styles/home.scss";
-// import AOS from "aos";
 export default function page() {
   return (
     <>

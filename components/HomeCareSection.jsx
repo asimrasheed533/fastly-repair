@@ -1,3 +1,4 @@
+"use client";
 import React from "react";
 import { BenefitsFeatureEntry } from "./BenefitsFeatureEntry";
 import ser01 from "@/public/ser01.jpg";
@@ -6,6 +7,7 @@ import ser03 from "@/public/ser03.jpg";
 import ser04 from "@/public/ser04.jpeg";
 import ser05 from "@/public/ser05.jpeg";
 import ser06 from "@/public/ser06.jpg";
+import { motion } from "framer-motion";
 
 const featureData = [
   {
@@ -44,11 +46,23 @@ export function HomeCareSection() {
   return (
     <div className="home__care">
       <div className="home__care__header">
-        <div className="home__care__header__heading">اكتشف فوائد اختيارنا</div>
-        <div className="home__care__header__info">
+        <motion.h1
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+        >
+          اكتشف فوائد اختيارنا
+        </motion.h1>
+
+        <motion.h1
+          initial={{ opacity: 0, y: -50 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.5 }}
+          className="home__care__header__info"
+        >
           إن الحصول على خدمات الصيانة المنزلية الطارئة في المدينة المنورة أمر
           ضروري
-        </div>
+        </motion.h1>
       </div>
       <div className="home__care__content">
         {featureData.map((feature) => (
