@@ -158,7 +158,7 @@ export default function Footer() {
               }
               label="mehtashamjutt553@gmail.com"
             />
-            <FooterSocialEntry
+            {/* <FooterSocialEntry
               icon={
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,7 +178,7 @@ export default function Footer() {
                 </svg>
               }
               label="Lorem Ipsum is simply dummy text "
-            />
+            /> */}
           </div>
         </div>
         {/* <div className="footer__content__bottom">

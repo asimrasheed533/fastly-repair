@@ -19,7 +19,7 @@ export default function About() {
 
   return (
     <>
-      <SecondHeader image={aboutAc} text="About Us" />
+      <SecondHeader image={aboutAc} text="معلومات عنا" />
       <AboutCard
         image={about01}
         heading="حلول الخبراء لإصلاح الأجهزة"
@@ -76,8 +76,8 @@ export default function About() {
                   />
                 </svg>
               }
-              heading="Transparency, Trust, and Integrity"
-              content="We believe in building trust through transparent pricing, clear communication, and a commitment to integrity in every aspect of our work, so you can have peace of mind knowing your in good hands."
+              heading="الشفافية، الثقة، والنزاهة"
+              content="نؤمن ببناء الثقة من خلال التسعير الشفاف، والتواصل الواضح، والالتزام بالنزاهة في كل جانب من جوانب عملنا، حتى تكون مطمئنًا بأنك في أيدٍ أمينة."
             />
             <ValueCard
               svg={
@@ -94,8 +94,8 @@ export default function About() {
                   />
                 </svg>
               }
-              heading="Fast and Efficient Repairs"
-              content="We understand the urgency of appliance breakdowns. Our team is committed to providing quick and effective repairs to minimize downtime and get your appliances back to work."
+              heading="إصلاحات سريعة وفعالة"
+              content="نحن ندرك مدى أهمية الأعطال الطارئة للأجهزة. فريقنا ملتزم بتقديم إصلاحات سريعة وفعالة لتقليل وقت التوقف وإعادة أجهزتك إلى العمل."
             />
             <ValueCard
               color
@@ -121,8 +121,8 @@ export default function About() {
                   />
                 </svg>
               }
-              heading="Customer Satisfaction"
-              content="Your satisfaction is our priority. We focus on delivering excellent service and building long-term customer relationships."
+              heading="رضا العملاء"
+              content="رضاكم هو أولويتنا. نحن نركز على تقديم خدمة ممتازة وبناء علاقات طويلة الأمد مع عملائنا."
             />
             <ValueCard
               svg={
@@ -141,8 +141,8 @@ export default function About() {
                   />
                 </svg>
               }
-              heading="Commitment to Quality"
-              content="We provide top-notch repair services using high-quality parts and expert craftsmanship to ensure lasting solutions."
+              heading="الالتزام بالجودة"
+              content="نقدم خدمات إصلاح من الدرجة الأولى باستخدام قطع غيار عالية الجودة وحرفية خبيرة لضمان حلول تدوم طويلاً."
             />
           </div>
         </div>
@@ -153,22 +153,22 @@ export default function About() {
               id={1}
               isOpen={isOpen}
               setIsOpen={() => toggleAccordion(1)}
-              content="Our team consists of highly trained professionals with years of industry experience."
-              heading="Experienced Technicians"
+              content="يتكون فريقنا من محترفين مدربين تدريباً عالياً ولديهم سنوات من الخبرة في المجال."
+              heading="فنيون ذوو خبرة"
             />
             <Accordion
               id={2}
               isOpen={isOpen}
               setIsOpen={() => toggleAccordion(2)}
-              content="We offer competitive prices without compromising on quality."
-              heading="Affordable Pricing"
+              content="نقدم أسعارًا تنافسية دون المساس بالجودة."
+              heading="أسعار معقولة"
             />
             <Accordion
               id={3}
               isOpen={isOpen}
               setIsOpen={() => toggleAccordion(3)}
-              content="We are available around the clock to assist you with any repair emergencies."
-              heading="24/7 Availability"
+              content="نحن متاحون على مدار الساعة لمساعدتك في حالات الطوارئ المتعلقة بالإصلاح."
+              heading="توفر 24/7"
             />
           </div>
         </div>
