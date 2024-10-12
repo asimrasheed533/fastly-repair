@@ -121,7 +121,7 @@ export default function Footer() {
                   />
                 </svg>
               }
-              label="0558617259"
+              label="+966558617259"
             />
             <FooterSocialEntry
               icon={
