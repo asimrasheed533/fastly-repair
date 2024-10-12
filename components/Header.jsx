@@ -66,7 +66,7 @@ export default function Header() {
                   pathname === "contactUs" ? "active" : ""
                 }`}
                 onClick={(e) => {
-                  e.preventDefault(); // Prevent default anchor behavior
+                  e.preventDefault();
                   document
                     .getElementById("contactUs")
                     .scrollIntoView({ behavior: "smooth" });
