@@ -6,7 +6,7 @@ export default function Phone() {
       <div className="contact__phone__container">
         <a
           className="whatsapp__icon"
-          href="https://api.whatsapp.com/send?phone=0558617259&text=I%20need%20help%20in%20assignment!%20Can%20you%20help%20me?"
+          href="https://api.whatsapp.com/send?phone=+966558617259&text=I%20need%20help%20in%20assignment!%20Can%20you%20help%20me?"
           target="_blank"
           rel="noreferrer"
           style={{
