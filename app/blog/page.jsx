@@ -1,8 +1,7 @@
-import SecondHeader from "@/components/SecondHeader";
-
-import blog from "@/public/blog.webp";
-
 import "@/styles/blog.scss";
+
+import SecondHeader from "@/components/SecondHeader";
+import blog from "@/public/blog.webp";
 import { blogCardData } from "@/constants/blogCardData";
 import BlogCard from "@/components/BlogCard";
 
