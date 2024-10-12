@@ -3,6 +3,7 @@ import Header from "@/components/Header";
 import Phone from "@/components/Phone";
 import "@/styles/global.scss";
 import { Plus_Jakarta_Sans } from "next/font/google";
+import { Partytown } from "@builder.io/partytown/react";
 
 const plus_jakarta_sans = Plus_Jakarta_Sans({ subsets: ["latin"] });
 
@@ -15,12 +16,15 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <head>
+        <Partytown debug={true} forward={["dataLayer.push"]} />
         {/* Google Analytics gtag.js */}
         <script
+          type="text/partytown"
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16712547038"
         ></script>
         <script
+          type="text/partytown"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];

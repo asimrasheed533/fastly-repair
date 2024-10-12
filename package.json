@@ -4,11 +4,13 @@
   "private": true,
   "scripts": {
     "dev": "next dev",
-    "build": "next build",
+    "build": "npm run partytown && next build",
+    "partytown": "partytown copylib public/~partytown",
     "start": "next start",
     "lint": "next lint"
   },
   "dependencies": {
+    "@builder.io/partytown": "^0.10.2",
     "aos": "^2.3.4",
     "framer-motion": "^11.11.8",
     "next": "14.2.15",
