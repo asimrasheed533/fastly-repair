@@ -19,12 +19,10 @@ export default function RootLayout({ children }) {
         <Partytown debug={true} forward={["dataLayer.push"]} />
         {/* Google Analytics gtag.js */}
         <script
-          type="text/partytown"
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16712547038"
         ></script>
         <script
-          type="text/partytown"
           dangerouslySetInnerHTML={{
             __html: `
               window.dataLayer = window.dataLayer || [];
