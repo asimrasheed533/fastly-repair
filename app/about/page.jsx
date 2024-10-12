@@ -4,9 +4,9 @@ import AboutCard from "@/components/AboutCard";
 import Accordion from "@/components/Accordion";
 import SecondHeader from "@/components/SecondHeader";
 import ValueCard from "@/components/ValueCard";
-import aboutAc from "@/public/aboutAc.png";
-import about01 from "@/public/about01.jpg";
-import about02 from "@/public/about02.png";
+import aboutAc from "@/public/aboutAc.webp";
+import about01 from "@/public/about01.webp";
+import about02 from "@/public/about02.webp";
 
 import "@/styles/about.scss";
 import Image from "next/image";

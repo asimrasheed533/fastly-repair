@@ -1,9 +1,4 @@
-"use client";
-import React from "react";
-import Link from "next/link";
-
 import { homeSolutionsData } from "./homeSolutionsData";
-import AOS from "aos";
 
 export function HomeSolutions() {
   return (
@@ -11,7 +6,6 @@ export function HomeSolutions() {
       <div className="home__solutions__heading">كيف تعمل خدماتنا؟</div>
       <div className="home__solutions__content">
         {homeSolutionsData.map((solution) => {
-          console.log("solution", solution.id);
           return (
             <a
               key={solution.id}
@@ -36,7 +30,6 @@ export function HomeSolutions() {
           width: "100%",
           display: "flex",
           justifyContent: "center",
-
           marginTop: "1em",
         }}
       >

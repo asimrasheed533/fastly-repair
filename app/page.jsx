@@ -1,7 +1,9 @@
+import "@/styles/home.scss";
+
 import { HomeCareSection } from "@/components/HomeCareSection";
 import { HomeFaqSection } from "@/components/HomeFaqSection";
 import { HomeSolutions } from "@/components/HomeSolutions";
-import "@/styles/home.scss";
+
 export default function page() {
   return (
     <>

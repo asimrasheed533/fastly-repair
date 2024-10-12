@@ -1,12 +1,12 @@
 "use client";
-import React from "react";
+
 import { BenefitsFeatureEntry } from "./BenefitsFeatureEntry";
-import ser01 from "@/public/ser01.jpg";
-import ser02 from "@/public/ser02.jpg";
-import ser03 from "@/public/ser03.jpg";
-import ser04 from "@/public/ser04.jpeg";
-import ser05 from "@/public/ser05.jpeg";
-import ser06 from "@/public/ser06.jpg";
+import ser01 from "@/public/ser01.webp";
+import ser02 from "@/public/ser02.webp";
+import ser03 from "@/public/ser03.webp";
+import ser04 from "@/public/ser04.webp";
+import ser05 from "@/public/ser05.webp";
+import ser06 from "@/public/ser06.webp";
 import { motion } from "framer-motion";
 
 const featureData = [

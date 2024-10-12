@@ -12,11 +12,10 @@
   position: fixed;
   left: 0;
   right: 0;
-  top: 0; /* This pins the nav bar to the top of the page */
+  top: 0;
   z-index: 9999;
   flex-direction: row-reverse;
 }
-
 .nav__log {
   background-color: transparent;
   border: none;
@@ -78,13 +77,11 @@
   color: #dd9747;
   transition: 300ms ease-in-out;
 }
-
 .header__container__menu__icon {
   background-color: transparent;
   border: none;
   display: none;
 }
-
 .header__container__menu__icon svg:hover {
   color: #dd9747;
   transition: 300ms ease-in-out;
@@ -114,17 +111,15 @@
   font-weight: 600;
   color: white;
 }
-
 @keyframes dropdown__list__nav__animation {
   from {
     opacity: 0;
     transform: scaleY(0.9), translateX(4rem);
   }
-
   to {
     opacity: 1;
-    left: 0em;
-    transform: scaleY(1), translateX(0rem);
+    left: 0;
+    transform: scaleY(1), translateX(0);
   }
 }
 @media (max-width: 950px) {
@@ -137,8 +132,8 @@
     align-items: flex-start;
     justify-content: flex-start;
     height: 100vh;
-    top: 0px;
-    left: 0px;
+    top: 0;
+    left: 0;
     transition: 300ms ease-in-out;
     width: 50%;
     border-top-right-radius: 18px;
@@ -150,7 +145,6 @@
     animation: dropdown__list__nav__animation 500ms both;
     padding: 1em;
     padding-top: 5em;
-    /* From https://css.glass */
     background: rgba(15, 12, 0, 0.822);
     box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
     backdrop-filter: blur(5px);

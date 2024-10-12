@@ -1,5 +1,3 @@
-import React from "react";
-
 export function HomeCareSectionEntry({ icon, title, info }) {
   return (
     <div className="home__care__content__entry">

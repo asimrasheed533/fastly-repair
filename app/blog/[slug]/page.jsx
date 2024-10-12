@@ -1,7 +1,7 @@
 "use client";
 import SecondHeader from "@/components/SecondHeader";
-import React from "react";
-import blogImg from "@/public/blog.png";
+
+import blogImg from "@/public/blog.webp";
 import "@/styles/blog.scss";
 import { BlogData } from "@/constants/BlogData";
 
@@ -10,7 +10,6 @@ export default function slug({ params }) {
   if (!blog) {
     return <p>Blog not found</p>;
   }
-  console.log("prams, slug: " + BlogData + ", params: " + params.slug);
   return (
     <>
       <SecondHeader image={blogImg} text="Blog Details" />

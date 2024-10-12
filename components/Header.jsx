@@ -1,14 +1,13 @@
 "use client";
+
+import "@/styles/header.scss";
+
 import React, { useEffect, useState } from "react";
 import ClickAwayListener from "react-click-away-listener";
-import "@/styles/header.scss";
-// import Image from "next/image";
 import Link from "next/link";
-import { useRouter } from "next/navigation";
 import { usePathname } from "next/navigation";
 
 export default function Header() {
-  const router = useRouter();
   const pathname = usePathname();
   const [isOpenMenu, setIsOpenMenu] = useState(false);
   function checkNavOpen() {

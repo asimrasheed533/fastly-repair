@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+
 import { Minus, Plus } from "react-feather";
 
 export function HomeFaqSectionEntry({
@@ -26,7 +27,6 @@ export function HomeFaqSectionEntry({
           )}
         </div>
       </button>
-
       {selected === index ? (
         <div className="home__faq__col__entry__content">{info}</div>
       ) : null}

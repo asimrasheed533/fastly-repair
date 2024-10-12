@@ -6,7 +6,7 @@
   width: 100%;
   max-width: 1440px;
   padding: 2em;
-  margin: 0em auto;
+  margin: 0 auto;
 }
 .footer__content__top {
   width: 100%;
@@ -35,7 +35,7 @@
   border: 1px solid #f6f6f6;
 }
 .footer__content__top__left__input svg {
-  margin: 0em 1.5em;
+  margin: 0 1.5em;
   width: 20px;
   height: 20px;
 }
@@ -130,7 +130,7 @@
   align-items: center;
   width: 100%;
   max-width: 800px;
-  margin: 0em auto;
+  margin: 0 auto;
   padding: 2em;
 }
 .footer__content__bottom__links__link {
@@ -141,7 +141,6 @@
 .footer__content__bottom__links__link:hover {
   color: #3cb149;
 }
-
 .footer__content__bottom__text {
   text-align: center;
 }
@@ -151,8 +150,8 @@
   }
   .footer__content__top__right {
     border: none;
-    margin-left: 0em;
-    padding-left: 0em;
+    margin-left: 0;
+    padding-left: 0;
     margin-top: 2em;
   }
 }

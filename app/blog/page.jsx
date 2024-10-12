@@ -1,6 +1,6 @@
 import SecondHeader from "@/components/SecondHeader";
-import React from "react";
-import blog from "@/public/blog.png";
+
+import blog from "@/public/blog.webp";
 
 import "@/styles/blog.scss";
 import { blogCardData } from "@/constants/blogCardData";
