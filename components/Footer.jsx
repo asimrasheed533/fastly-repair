@@ -121,6 +121,7 @@ export default function Footer() {
                 </svg>
               }
               label="+966558617259"
+              link="tel:+966558617259"
             />
             <FooterSocialEntry
               icon={
@@ -156,6 +157,7 @@ export default function Footer() {
                 </svg>
               }
               label="mehtashamjutt553@gmail.com"
+              link="mailto:mehtashamjutt553@gmail.com"
             />
             {/* <FooterSocialEntry
               icon={
@@ -215,7 +217,11 @@ function FooterSocialEntry({ icon, link, label }) {
   return (
     <div className="footer__content__top__right__entry">
       <div className="footer__content__top__right__entry__icon">{icon}</div>
-      <a href={link} className="footer__content__top__right__entry__link">
+      <a
+        href={link}
+        title={label}
+        className="footer__content__top__right__entry__link"
+      >
         {label}
       </a>
     </div>
