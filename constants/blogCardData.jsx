@@ -2,6 +2,7 @@ import blog01 from "@/public/blog01.webp";
 import ser01 from "@/public/ser01.webp";
 import ser03 from "@/public/ser03.webp";
 import topAc from "@/public/topac.webp";
+
 export const blogCardData = [
   {
     id: 1,
