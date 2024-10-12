@@ -1,4 +1,6 @@
 "use client";
+import "@/styles/about.scss";
+
 import React, { useState } from "react";
 import AboutCard from "@/components/AboutCard";
 import Accordion from "@/components/Accordion";
@@ -7,14 +9,13 @@ import ValueCard from "@/components/ValueCard";
 import aboutAc from "@/public/aboutAc.webp";
 import about01 from "@/public/about01.webp";
 import about02 from "@/public/about02.webp";
-
-import "@/styles/about.scss";
 import Image from "next/image";
 
 export default function About() {
   const [isOpen, setIsOpen] = useState(null);
+
   const toggleAccordion = (id) => {
-    setIsOpen(isOpen === id ? null : id); // Open accordion if closed, close if opened
+    setIsOpen(isOpen === id ? null : id);
   };
 
   return (
