@@ -1,8 +1,8 @@
 "use client";
-import SecondHeader from "@/components/SecondHeader";
-
-import blogImg from "@/public/blog.webp";
 import "@/styles/blog.scss";
+
+import SecondHeader from "@/components/SecondHeader";
+import blogImg from "@/public/blog.webp";
 import { BlogData } from "@/constants/BlogData";
 
 export default function slug({ params }) {
