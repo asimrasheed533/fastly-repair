@@ -1,3 +1,5 @@
+"use client";
+
 import React, { useState } from "react";
 import { HomeFaqSectionEntry } from "./HomeFaqSectionEntry";
 import { faqData } from "@/constants/faqData";
