@@ -17,10 +17,14 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <head>
         <Partytown debug={true} forward={["dataLayer.push"]} />
-        {/* Google Analytics gtag.js */}
+        {/* Google Analytics for multiple tracking IDs */}
         <script
           async
           src="https://www.googletagmanager.com/gtag/js?id=AW-16712547038"
+        ></script>
+        <script
+          async
+          src="https://www.googletagmanager.com/gtag/js?id=G-Y6NPQQ3S59"
         ></script>
         <script
           dangerouslySetInnerHTML={{
@@ -29,6 +33,7 @@ export default function RootLayout({ children }) {
               function gtag(){dataLayer.push(arguments);}
               gtag('js', new Date());
               gtag('config', 'AW-16712547038');
+              gtag('config', 'G-Y6NPQQ3S59');
             `,
           }}
         />
