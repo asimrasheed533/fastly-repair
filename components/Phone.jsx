@@ -4,7 +4,7 @@ export default function Phone() {
       <div className="contact__phone__container">
         <a
           className="whatsapp__icon"
-          href="https://wa.me/+966571734988"
+          href="https://wa.me/+966576370554"
           target="_blank"
           rel="noreferrer"
           style={{
@@ -73,7 +73,7 @@ export default function Phone() {
         </a>
         <a
           className="whatsapp__icon__phone"
-          href="tel:0571734988"
+          href="tel:0576370554"
           target="_blank"
           rel="noreferrer"
           style={{

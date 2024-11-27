@@ -18,7 +18,7 @@ export default function page() {
           </div>
           <div className="header__content__buttons__button__warper">
             <a
-              href="tel:0571734988"
+              href="tel:0576370554"
               target="_blank"
               className="header__content__buttons__button"
             >

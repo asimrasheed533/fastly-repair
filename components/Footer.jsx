@@ -120,8 +120,8 @@ export default function Footer() {
                   />
                 </svg>
               }
-              label="+966571734988"
-              link="tel:+966571734988"
+              label="+966576370554"
+              link="tel:+966576370554"
             />
             <FooterSocialEntry
               icon={

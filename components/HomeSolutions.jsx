@@ -34,7 +34,7 @@ export function HomeSolutions() {
         }}
       >
         <a
-          href="tel:0571734988"
+          href="tel:0576370554"
           target="_blank"
           className="header__content__nav__buttons__button header__content__nav__buttons__button__secondary"
         >
